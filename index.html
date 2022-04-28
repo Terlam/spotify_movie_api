@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Poster Project</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/mane.js" defer></script>
+</head>
+<body>
+    <!-- Start of Poster Container -->
+    <h1>My Movie Sound Track</h1>
+    <div class="container">
+        <button onclick="stopSnippet()">Stop Song</button>
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="getSong(this.id,event)">
+                <img src="images/Us-poster.jpg" alt="I got five on it" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="getSong(this.id,event)">
+                <img src="images/badboys-poster.jpg" alt="bad boy for life" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="getSong(this.id,event)">
+                <img src="/images/rangers.jpg" alt="mighty morphin power rangers" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="getSong(this.id,event)">
+                <img src="/images/spidey.jpg" alt="spider man" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="getSong(this.id,event)">
+                <img src="images/tokyodrift.jpeg" alt="tokyo drift" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="getSong(this.id,event)">
+                <img src="images/lofi.jpg" alt="lofi beats" class="gallery__img">
+            </figure>
+        </div>
+    </div>
+</body>
+</html>
